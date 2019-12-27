@@ -14,7 +14,7 @@ def trend(beg,end,symbol):
     '''
     import pandas as pd
     import quandl
-    quandl.ApiConfig.api_key = 'QoFUNUurF4iugrBcDAD7'
+    quandl.ApiConfig.api_key = '' # get your own free quandl api on quandl.com
     
     beg = str(pd.to_datetime(beg)).split()[0]
     end = str(pd.to_datetime(end)).split()[0]
