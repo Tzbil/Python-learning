@@ -9,7 +9,7 @@ Created on Sun Aug 18 21:56:30 2019
 def main():
     import pandas as pd
     import quandl
-    quandl.ApiConfig.api_key = 'QoFUNUurF4iugrBcDAD7'
+    quandl.ApiConfig.api_key = '' # get your free quandl api key on quandl.com
     
     beg = str(pd.to_datetime(input("Enter the begaining date in format yyyy-mm-dd: "))).split()[0]
     end = str(pd.to_datetime(input("Enter the ending date in format yyyy-mm-dd: "))).split()[0]
